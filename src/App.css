@@ -4,6 +4,7 @@
   align-items: center;
   margin-top: 50px;
 }
+
 .heading {
   font-family: 'Arial', sans-serif;
   font-size: 24px;
@@ -13,12 +14,11 @@
   letter-spacing: 2px;
   margin: 0;
   position: fixed;
-  top: 20px;
-  left: 20px;
+  top: 0;
+  left: 0;
   z-index: 9999;
   background-color: #333;
   padding: 10px 20px;
-  border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -31,8 +31,6 @@
   margin-top: 5px;
 }
 
-
-
 .navbar {
   position: fixed;
   top: 0;
@@ -41,7 +39,9 @@
   height: 60px;
   background-color: #450707;
   z-index: 9999;
+  margin-top: 60px;
 }
+
 
 .container {
   margin-top: 60px;
